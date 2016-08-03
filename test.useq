@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.6" icons="true">  
+  <object id="1" language="java" name="android.os.Looper" project="AllergieTb" 
+    file="C:/adt-bundle-windows-x86_64-20140321/adt-bundle-windows-x86_64-20140321/sdk/platforms/android-19/android.jar" 
+    binary="true" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="429" width="0" x="0" y="78"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="com.example.allergietb.MainActivity" project="AllergieTb" 
+    file="/AllergieTb/src/com/example/allergietb/MainActivity.java" binary="false" label="mainActivity" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="4">      
+      <position height="387" width="0" x="0" y="99"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="303" width="0" x="0" y="141"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="240" width="0" x="0" y="183"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="167" width="0" x="0" y="235"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="94" width="0" x="0" y="287"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="21" width="0" x="0" y="339"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="android.support.v7.app.ActionBarActivityDelegateJBMR2" project="AllergieTb" 
+    file="C:/Users/Ramon/AndroidWorkspace/appcompat_v7/libs/android-support-v7-appcompat.jar" binary="true" 
+    label="actionBarActivityDelegateJBMR2" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="345" width="0" x="0" y="120"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="onMenuItemSelected(int,android.view.MenuItem):boolean">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="onMenuItemSelected(int,android.view.MenuItem):boolean">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" operation="onMenuItemSelected(int,android.view.MenuItem):boolean">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="onMenuItemSelected(int,android.view.MenuItem):boolean">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="onOptionsItemSelected(android.view.MenuItem):boolean">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="export():void">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="18" operation="superOnMenuItemSelected(int,android.view.MenuItem):boolean">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>
+</sequence-diagram>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Allergie - Beschwerdebuch</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="header">Allergie - Beschwerdebuch</string>
+    <string name="title_activity_date">DateActivity</string>
+    <string name="title_activity_date_time">DateTimeActivity</string>
+    <string name="title_activity_position">PositionActivity</string>
+    <string name="title_activity_medicine">MedicineActivity</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="eyes">Augen</string>
+    <string name="nose">Nase</string>
+    <string name="mouth">Mund</string>
+    <string name="bronchia">Bronchien</string>
+	<string name="hands">Hände</string>
+    <string name="skin">Haut</string>
+    <string name="save">Speichern</string>  
+    <string name="medicine">Medikamente</string>
+    <string name="name">Name:</string>
+	<string name="form">Form:</string>
+    <string name="quantity">Menge:</string>
+    <string name="notes">Notiz:</string>
+    <string name="date">Datum:</string>
+    <string name="time">Uhrzeit:</string>
+    <string name="menu1">Beschwerden</string>
+    <string name="menu2">Medikamente</string>
+    <string name="menu3">Datum / Uhrzeit</string>
+    <string name="menu4">Position</string>
+    <string name="menu5">Datei-Export</string>
+    <string name="menu6">Hilfe</string>
+    <string name="menu7">Speichern</string>
+</resources>

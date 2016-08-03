@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.6" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="com.example.allergietb.MainActivity" project="AllergieTb" 
+    file="/AllergieTb/src/com/example/allergietb/MainActivity.java" binary="false" label="mainActivity" type="class" 
+    autoSize="true">    
+    <position x="112" y="0" width="-1" height="-1"/>    
+    <execution id="2">      
+      <position x="0" y="113" width="0" height="239"/>    
+    </execution>    
+    <execution id="4">      
+      <position x="0" y="155" width="0" height="21"/>    
+    </execution>    
+    <execution id="11">      
+      <position x="0" y="416" width="0" height="725"/>    
+    </execution>    
+    <execution id="13">      
+      <position x="0" y="458" width="0" height="21"/>    
+    </execution>    
+    <execution id="15">      
+      <position x="53" y="509" width="7" height="63"/>    
+    </execution>    
+    <execution id="17">      
+      <position x="53" y="596" width="7" height="21"/>    
+    </execution>    
+    <execution id="19">      
+      <position x="53" y="640" width="7" height="21"/>    
+    </execution>    
+    <execution id="21">      
+      <position x="53" y="692" width="7" height="21"/>    
+    </execution>    
+    <execution id="23">      
+      <position x="53" y="749" width="7" height="21"/>    
+    </execution>    
+    <execution id="28">      
+      <position x="0" y="1161" width="0" height="84"/>    
+    </execution>    
+    <execution id="30">      
+      <position x="0" y="1203" width="0" height="21"/>    
+    </execution>    
+    <execution id="31">      
+      <position x="0" y="1259" width="0" height="84"/>    
+    </execution>    
+    <execution id="33">      
+      <position x="0" y="1301" width="0" height="21"/>    
+    </execution>    
+    <execution id="25">      
+      <position x="53" y="800" width="7" height="320"/>    
+    </execution>    
+    <execution id="10">      
+      <position x="53" y="304" width="7" height="21"/>    
+    </execution>  
+  </object>  
+  <object id="36" language="java" name="com.example.allergietb.MainActivity.PlaceholderFragment" project="AllergieTb" 
+    file="/AllergieTb/src/com/example/allergietb/MainActivity.java" binary="false" label="placeholderFragment" 
+    type="class" autoSize="true">    
+    <position x="131" y="0" width="-1" height="-1"/>    
+    <execution id="8">      
+      <position x="112" y="221" width="145" height="84"/>    
+    </execution>    
+    <execution id="38">      
+      <position x="181" y="263" width="7" height="21"/>    
+    </execution>  
+  </object>  
+  <object id="39" language="java" name="com.example.allergietb.MainActivity.MyLocationListener" project="AllergieTb" 
+    file="/AllergieTb/src/com/example/allergietb/MainActivity.java" binary="false" label="myLocationListener" 
+    type="class" autoSize="true">    
+    <position x="362" y="0" width="-1" height="-1"/>    
+    <execution id="35">      
+      <position x="261" y="862" width="135" height="237"/>    
+    </execution>    
+    <execution id="41">      
+      <position x="325" y="904" width="7" height="21"/>    
+    </execution>    
+    <execution id="43">      
+      <position x="325" y="940" width="7" height="21"/>    
+    </execution>    
+    <execution id="45">      
+      <position x="325" y="996" width="7" height="21"/>    
+    </execution>    
+    <execution id="47">      
+      <position x="325" y="1057" width="7" height="21"/>    
+    </execution>  
+  </object>  
+  <object id="48" language="java" name="com.example.allergietb.MySQLiteHelper" project="AllergieTb" 
+    file="/AllergieTb/src/com/example/allergietb/MySQLiteHelper.java" binary="false" label="mySQLiteHelper" type="class" 
+    autoSize="true">    
+    <position x="318" y="0" width="-1" height="-1"/>    
+    <execution id="6">      
+      <position x="400" y="192" width="114" height="139"/>    
+    </execution>    
+    <execution id="27">      
+      <position x="400" y="530" width="114" height="21"/>    
+    </execution>    
+    <execution id="50">      
+      <position x="454" y="234" width="7" height="21"/>    
+    </execution>    
+    <execution id="52">      
+      <position x="454" y="289" width="7" height="21"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="onCreate(android.os.Bundle):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="MySQLiteHelper(android.content.Context)">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="PlaceholderFragment()">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="onCreateOptionsMenu(android.view.Menu):boolean">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="12" operation="onOptionsItemSelected(android.view.MenuItem):boolean">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="saveAll():void">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="saveDate():void">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="saveMedicine():void">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="saveSymptoms():void">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="export():void">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="getLocation():void">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="addAll(int,int,int,int,int,int,String,String,String,String,int,int,int,int,int):void">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="29" operation="setMedicineValue():void">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="32" operation="setSymptomsValue():void">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>  
+  <message id="34" operation="MyLocationListener()">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="37" 
+    operation="onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):android.view.View">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="40" operation="onLocationChanged(android.location.Location):void">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="41"/>  
+  </message>  
+  <message id="42" operation="onProviderDisabled(String):void">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="43"/>  
+  </message>  
+  <message id="44" operation="onProviderEnabled(String):void">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="45"/>  
+  </message>  
+  <message id="46" operation="onStatusChanged(String,int,android.os.Bundle):void">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="47"/>  
+  </message>  
+  <message id="49" operation="onCreate(android.database.sqlite.SQLiteDatabase):void">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="50"/>  
+  </message>  
+  <message id="51" operation="onUpgrade(android.database.sqlite.SQLiteDatabase,int,int):void">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>
+</sequence-diagram>

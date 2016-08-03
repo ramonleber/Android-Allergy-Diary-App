@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item 
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/menu_symptoms"
+          android:icon="@drawable/icon_main"
+          android:title="@string/menu1" />
+ 
+    <item android:id="@+id/menu_medicine"
+          android:icon="@drawable/icon_main"
+          android:title="@string/menu2" />
+    
+    <item android:id="@+id/menu_date"
+          android:icon="@drawable/icon_date"
+          android:title="@string/menu3" />
+ 
+    <item android:id="@+id/menu_position"
+          android:icon="@drawable/icon_position"
+          android:title="@string/menu4" />
+ 
+    <item android:id="@+id/menu_export"
+          android:icon="@drawable/icon_export"
+          android:title="@string/menu5" />
+ 
+    <item android:id="@+id/menu_help"
+          android:icon="@drawable/icon_help"
+          android:title="@string/menu6" />
+     
+    <item android:id="@+id/menu_save"
+          android:icon="@drawable/icon_save"
+          android:title="@string/menu7" />   
+</menu>
